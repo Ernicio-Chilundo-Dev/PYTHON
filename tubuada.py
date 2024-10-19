@@ -1,2 +1,6 @@
 num = int(input("Digite um numero: "))
-print("{} x {:2} = {}".format(num,2,num*2))
+i=0
+while(i < 16):
+    print("{} x {:2} = {}".format(num,i,num*i))
+    i+=1
+print("{:=^20}".format("Demais"))
